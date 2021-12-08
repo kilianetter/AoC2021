@@ -19,7 +19,8 @@ def moveit(positions, target):
     fuel = 0
     for pos in positions:
         n = abs(int(pos) - int(target))
-        fuel += (n * (n+1)) / 2
+        # Gauss'sche Summenformel
+        fuel += (n*(n+1)) / 2
         dist += n
     return dist, fuel
 
