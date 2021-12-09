@@ -102,8 +102,6 @@ def getKeysByValue(dictOfElements, valueToFind):
             listOfKeys.append(item[0])
     return  listOfKeys
 
-
-
 def mapConnections(digitlist, mappingdict):
     digits = []
     for digit in digitlist:
@@ -133,7 +131,6 @@ for line in range(len(output)):
     num_out = mapConnections(output[line], mappingdict)
     print(f'line: {line} - {num_out}')
     results.append(num_out)
-
 
 print("results: ", results)
 print(sum(results))
