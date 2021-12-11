@@ -1,5 +1,4 @@
 import numpy as np
-from numpy.core.fromnumeric import size
 
 testdata = [
     "5483143223",
